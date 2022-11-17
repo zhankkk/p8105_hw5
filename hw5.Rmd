@@ -40,7 +40,7 @@ homicide_raw=read.csv("homicide.csv")
   
   
 ```
-The homicide dataset describes homicides happened in 50 major American cities with `homicide_raw%>% nrow()` cases recorded over the past decades. There are `homicide_raw%>% ncol()` variables included in the data. Among all the variables, reported date,latitude and longitude are recorded in form of numeric values while other 9 variables are character values. 
+The homicide dataset describes homicides happened in 50 major American cities with ` r homicide_raw%>% nrow()` cases recorded over the past decades. There are `r homicide_raw%>% ncol()` variables included in the data. Among all the variables, reported date,latitude and longitude are recorded in form of numeric values while other 9 variables are character values. 
 
 Some race ,age and gender are unknown for victims, accounting for part of missing values other than 'na's in latitude and longitude.
 

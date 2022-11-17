@@ -49,8 +49,8 @@ homicide_raw=read.csv("homicide.csv")
 ```
 
 The homicide dataset describes homicides happened in 50 major American
-cities with `homicide_raw%>% nrow()` cases recorded over the past
-decades. There are `homicide_raw%>% ncol()` variables included in the
+cities with 52179 cases recorded over the past
+decades. There are 12 variables included in the
 data. Among all the variables, reported date,latitude and longitude are
 recorded in form of numeric values while other 9 variables are character
 values.
